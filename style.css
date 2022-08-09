@@ -7,13 +7,13 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     background: url(./images/hero_bg.jpg);
     background-size: cover;
     background-blend-mode: soft-light;
     background-color: rgba(2, 2, 25, 0.772);
     background-repeat: no-repeat;
-}
+} */
 
 .hambur{
     cursor: pointer;
