@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./images/hero_bg.jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgba(2, 2, 25, 0.772);
+    background-repeat: no-repeat;
+}
+
+.hambur{
+    cursor: pointer;
+}
+
+.theSideBar{
+    margin-top: 32px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstSection h3 {
+    margin-top: 32px;
+    font-weight: 00;
+    letter-spacing: 3px;
+    padding-bottom: 1rem;
+}
+
+.centerdLogo {
+    margin-top: 20%;
+    color: #ffffff;
+}
+
+.centerdLogo h2 {
+    text-align: center;
+    font-size: 113px;
+    color: #e3e3e3;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    transition: 0.5s;
+}
+
+.centerdLogo h2:hover {
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+.centerdLogo p {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.centerdLogo button {
+    margin: auto 40%;
+    width: 18%;
+    border: 3px solid #ffffff;
+    background: none;
+    color: #ffffff;
+    padding: 12px;
+    letter-spacing: 2.5px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.centerdLogo button:hover {
+    font-weight: 1000;
+    color: white;
+    background-color: transparent;
+    transform: scale(1.05, 1.05);
+    text-transform: uppercase;
+
+}
+
+.centerdLogo button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: lighter;
+
+}
+
+.backVid{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .backVid{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .backVid{
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+/* PRESIDENTIAL_SUITE CSS BEGINS*/
+
+.cardAlign {
+    margin-top: 25PX;
+}
+
+.bookings {
+    background: #ffffff;
+    padding: 12px;
+    height: 75px;
+    width: 90%;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 18px;
+}
+
+/* .navbar-nav{
+    float: right;
+} */
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-nav {
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.navbar-nav li a:hover {
+    font-weight: bold;
+    transition: .3s ease-in;
+    transform: scale(1.05, 1.05);
+    border-bottom: 1px solid black;
+}
+
+.nav-link {
+    color: #043051;
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 2.5px;
+}
+
+.card-body p {
+    font-family: 'Titan One', cursive;
+    font-size: 22px;
+}
+
+.card-body .mySpan {
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.akatsuki{
+    height:40vh;
+    width: 60%;
+    border: 2px solid black;
+}
